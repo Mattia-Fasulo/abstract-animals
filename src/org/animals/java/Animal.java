@@ -16,8 +16,8 @@ public abstract class Animal {
         System.out.println("Zzzzz");
     };
 
-    public void eat(String s){
-        System.out.println(name + " is eating: " + s);
+    public void eat(){
+        System.out.println(name + " is eating");
     }
 
     //getter and setter

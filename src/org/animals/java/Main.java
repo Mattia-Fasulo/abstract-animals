@@ -7,14 +7,14 @@ public class Main {
 
         System.out.println(leopoldo);
         leopoldo.call();
-        leopoldo.eat("beef");
+        leopoldo.eat();
         leopoldo.sleep();
         System.out.println();
 
         Eagle franklin = new Eagle("Franklin");
         System.out.println(franklin);
         franklin.call();
-        franklin.eat("mouse");
+        franklin.eat();
         franklin.sleep();
 
         System.out.println();
@@ -22,7 +22,7 @@ public class Main {
         Cat wagner = new Cat("Wagner");
         System.out.println(wagner);
         wagner.call();
-        wagner.eat("salmon");
+        wagner.eat();
         wagner.sleep();
 
         System.out.println();
@@ -30,7 +30,7 @@ public class Main {
         Dolphin ugo = new Dolphin("Ugo");
         System.out.println(ugo);
         ugo.call();
-        ugo.eat("beef");
+        ugo.eat();
         ugo.sleep();
 
         System.out.println();
