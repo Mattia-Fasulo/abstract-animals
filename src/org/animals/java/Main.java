@@ -35,5 +35,21 @@ public class Main {
 
         System.out.println();
 
+        makeSwim(leopoldo);
+
+        makeSwim(wagner);
+
+        makeSwim(ugo);
+
+        makeFly(franklin);
+
+    }
+
+    public static void makeFly(Flyer flyer){
+        flyer.fly();
+    }
+
+    public static void makeSwim(Swimmer swimmer){
+        swimmer.swim();
     }
 }

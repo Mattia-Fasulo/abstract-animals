@@ -1,6 +1,6 @@
 package org.animals.java;
 
-public class Eagle extends Animal{
+public class Eagle extends Animal implements Flyer{
     //constructor
     public Eagle(String name) {
         super(name);
@@ -15,5 +15,10 @@ public class Eagle extends Animal{
     @Override
     public String toString() {
         return "Eagle {" + super.toString() + "}";
+    }
+
+    @Override
+    public void fly() {
+        System.out.println(getName() + " is flying");
     }
 }
