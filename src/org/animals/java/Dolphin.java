@@ -1,19 +1,20 @@
 package org.animals.java;
 
-public class Dog extends Animal{
+public class Dolphin extends  Animal{
+
     //constructor
-    public Dog(String name) {
+    public Dolphin(String name) {
         super(name);
     }
 
     //methods
     @Override
     public void call() {
-        System.out.println("Bau bau");
+        System.out.println("Trill");
     }
 
     @Override
     public String toString() {
-        return "Dog {" + super.toString() + "}";
+        return "Dolphin {" + super.toString() + "}";
     }
 }
